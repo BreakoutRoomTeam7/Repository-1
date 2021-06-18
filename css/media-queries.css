@@ -51,5 +51,52 @@
 }
 
 @media screen and (min-width:768px) {
+    div{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .h1-title-and-tabs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-links a {
+        display: flex;
+        margin: 1em;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+    }
+
+    .alert-info.hidden-on-desktop {
+        display: none;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    section{
+        display: inline;
+    }
+
+    .main>p{
+        width: 66%;
+        padding: 0;
+    }
+
+    .sub-section {
+        font-style: italic;
+        width: 33%;
+    }
+
+    .main{
+        width: 66%;
+    }
 
 }
