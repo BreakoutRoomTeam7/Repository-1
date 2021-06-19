@@ -16,9 +16,7 @@
     img {
         width: 100%;
     }
-    h1 {
 
-    }
     .h1-title-and-tabs {
         display: flex;
         flex-direction: column;
@@ -79,24 +77,26 @@
 
     img{
         width: 100%;
-    }
-
-    section{
-        display: inline;
-    }
-
-    .main>p{
-        width: 66%;
-        padding: 0;
+        margin: 0 1em;
     }
 
     .sub-section {
         font-style: italic;
-        width: 33%;
+        float: left;
+        width: calc(32% - 1em);
+        margin:.5em 1em;
+        word-wrap: break-word;
     }
 
     .main{
-        width: 66%;
+        float: left;
+        width: calc(65% - 1em);
+        margin: .5em 1em;
     }
 
+    footer{
+        margin-top: 2em;
+        margin-left: 1em;
+        bottom: 0;
+    }
 }
