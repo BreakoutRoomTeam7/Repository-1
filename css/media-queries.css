@@ -82,21 +82,23 @@
 
     .sub-section {
         font-style: italic;
-        float: left;
-        width: calc(32% - 1em);
-        margin:.5em 1em;
+        float: right;
+        width: calc(33% - 2em);
+        margin: .5em 1em;
         word-wrap: break-word;
     }
 
     .main{
         float: left;
-        width: calc(65% - 1em);
+        width: calc(65% - 2em);
         margin: .5em 1em;
+        word-wrap: break-word;
     }
 
     footer{
+        clear: right;
         margin-top: 2em;
         margin-left: 1em;
-        bottom: 0;
     }
+
 }
